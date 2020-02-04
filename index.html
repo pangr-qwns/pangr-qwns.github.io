@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 	</head>
+
 	<body>
 		<section class="Page">
 			<div class="Menu">
@@ -25,22 +26,41 @@
 					<a href="https://www.instagram.com/stirfryp4pi/" target="_blank">
 						<i style="font-size:24px" class="fa">&#xf16d;</i></a>
 				</div>
+				<p class="Copyright">&#169; 2020. Design and developed by Raymond Pang</p>
 			</div>
-			<div class="Projects">
-				<div class="Project" id="1">
-					Title
-				</div>
-				<br>
-				<div class="Project" id="2">
-					Title2
-				</div>
-				<br>
+			<div class="Projects" id="Projs">
 			</div>
 		</section>
 	</body>
+
 	<script>
 		$.getJSON("projects.json", function(data){
-			console.log(data);
+			projects = data["data"];
+
+			for (var i = 0; i < projects.length; i++) {
+				var project = projects[i];
+				var title = project.Title;
+				var desc = project.Description;
+				var skills = project.Skills;
+				var demo = project.Demo;
+				var source = project.Source;
+
+				var p = document.createElement('div');
+				p.className = 'Project';
+				p.id = project.id;
+				p.innerHTML =
+					'<h3>' + title + '</h3>' +
+					'<p>' + desc +
+					'<br><br>Skills: ' + skills +
+					'<br><br>Demo: ' + demo +
+					'<br><br>Source: ' + source +
+					'</p>';
+				document.getElementById('Projs').appendChild(p);
+				var linebreak = document.createElement('br');
+				document.getElementById('Projs').appendChild(linebreak);
+				document.getElementById('Projs').appendChild(linebreak);
+				console.log(p);
+			}
 		});
 	</script>
 </html>

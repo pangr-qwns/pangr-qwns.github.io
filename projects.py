@@ -5,9 +5,17 @@ data = {
         "Title": "Instagram, Remade",
         "Description": "Remade Instagram with client side and server side dynamic "
                        "pages.",
-        "Tech Stack": ["Flask", "MySQL", "React.js"],
-        "Demo Link": "https://www.youtube.com/watch?v=d_IBDNTvAfs",
-        "Source Code": ""
+        "Skills": ["Flask", "MySQL", "React.js"],
+        "Demo": "https://www.youtube.com/watch?v=d_IBDNTvAfs",
+        "Source": ""
+        },
+        {
+        "id": 2,
+        "Title": "Lorem ipsum",
+        "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
+        "Skills": ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum"],
+        "Demo": "Lorem ipsum",
+        "Source": "Lorem ipsum"
         }
     ]
 }
