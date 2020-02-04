@@ -13,8 +13,8 @@
 				<h1>Raymond<br>Pang</h1>
 				<br>
 				<div class="vertical-menu">
-					<a href="./index.html" class="active">Projects</a>
-					<a href="./photography.html">Photography</a>
+					<a href="./index.html">Projects</a>
+                    <a href="./photography.html" class="active">Photography</a>
 					<a href="./about.html">About</a>
 					<a href="static/Resume.pdf" target="_blank">Resume</a>
 				</div>
@@ -29,39 +29,15 @@
 				</div>
 				<p class="Copyright">&#169; 2020. Design and developed by Raymond Pang</p>
 			</div>
-			<div class="Projects" id="Projs">
-			</div>
+
+            <div class="Project">
+                <h3>Hey there! I'm still working on this, so hopefully I'll get it up and running before end of February :^)</h3>
+            </div>
+
 		</section>
 	</body>
 
 	<script>
-		$.getJSON("projects.json", function(data){
-			projects = data["data"];
 
-			for (var i = 0; i < projects.length; i++) {
-				var project = projects[i];
-				var title = project.Title;
-				var desc = project.Description;
-				var skills = project.Skills;
-				var demo = project.Demo;
-				var source = project.Source;
-
-				var p = document.createElement('div');
-				p.className = 'Project';
-				p.id = project.id;
-				p.innerHTML =
-					'<h3>' + title + '</h3>' +
-					'<p>' + desc +
-					'<br><br>Skills: ' + skills +
-					'<br><br>Demo: ' + demo +
-					'<br><br>Source: ' + source +
-					'</p>';
-				document.getElementById('Projs').appendChild(p);
-				var linebreak = document.createElement('br');
-				document.getElementById('Projs').appendChild(linebreak);
-				document.getElementById('Projs').appendChild(linebreak);
-				console.log(p);
-			}
-		});
 	</script>
 </html>

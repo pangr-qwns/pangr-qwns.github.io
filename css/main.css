@@ -76,5 +76,21 @@
   height: 450px;
   width: 300px;
   padding: 24px;
+}
 
+.About {
+  border-style: solid;
+  margin-left: 270px; /*Float Right*/
+  height: 450px;
+  width: 300px;
+  padding: 24px;
+}
+
+.Portrait {
+  text-align: center;
+}
+
+.Portrait_Pic {
+  border-radius: 50%;
+  width: 200px;
 }

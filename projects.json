@@ -14,12 +14,33 @@
         },
         {
             "id": 2,
-            "Title": "Lorem ipsum",
+            "Title": "Using Data Mining to Predict Suicide Rates",
             "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
             "Skills": [
-                "Lorem ipsum",
-                "Lorem ipsum",
-                "Lorem ipsum"
+                "R",
+                "Linear Regression",
+                "Splines",
+                "GAM"
+            ],
+            "Demo": "Lorem ipsum",
+            "Source": "Lorem ipsum"
+        },
+        {
+            "id": 3,
+            "Title": "Interactive RFID",
+            "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
+            "Skills": [
+                "Python"
+            ],
+            "Demo": "Lorem ipsum",
+            "Source": "Lorem ipsum"
+        },
+        {
+            "id": 4,
+            "Title": "Mobile Barcode Scanner",
+            "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
+            "Skills": [
+                "Product Design"
             ],
             "Demo": "Lorem ipsum",
             "Source": "Lorem ipsum"

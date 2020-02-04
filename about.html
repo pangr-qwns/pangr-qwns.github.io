@@ -13,9 +13,9 @@
 				<h1>Raymond<br>Pang</h1>
 				<br>
 				<div class="vertical-menu">
-					<a href="./index.html" class="active">Projects</a>
-					<a href="./photography.html">Photography</a>
-					<a href="./about.html">About</a>
+					<a href="./index.html">Projects</a>
+                    <a href="./photography.html">Photography</a>
+					<a href="./about.html" class="active">About</a>
 					<a href="static/Resume.pdf" target="_blank">Resume</a>
 				</div>
 				<br><br>
@@ -29,39 +29,27 @@
 				</div>
 				<p class="Copyright">&#169; 2020. Design and developed by Raymond Pang</p>
 			</div>
-			<div class="Projects" id="Projs">
-			</div>
+            <div class="About">
+				<div class="Portrait">
+					<img src="./static/Portrait.jpg" alt="Portrait" class="Portrait_Pic">
+				</div>
+                <p>Hello, I'm Raymond.</p>
+                <h2>Computer Scientist,</h2>
+                <h2>Amateur Photographer.</h2>
+                <p>Studying Data Science at UofM <br>
+                    Graduating April 2020 <br>
+                    Previous Software Engineer at New York Mortgage Trust <br>
+                </p>
+            </div>
+            <br>
+            <div class="About">
+                <h3>More Bio stuff</h3>
+            </div>
+            <br>
 		</section>
 	</body>
 
 	<script>
-		$.getJSON("projects.json", function(data){
-			projects = data["data"];
 
-			for (var i = 0; i < projects.length; i++) {
-				var project = projects[i];
-				var title = project.Title;
-				var desc = project.Description;
-				var skills = project.Skills;
-				var demo = project.Demo;
-				var source = project.Source;
-
-				var p = document.createElement('div');
-				p.className = 'Project';
-				p.id = project.id;
-				p.innerHTML =
-					'<h3>' + title + '</h3>' +
-					'<p>' + desc +
-					'<br><br>Skills: ' + skills +
-					'<br><br>Demo: ' + demo +
-					'<br><br>Source: ' + source +
-					'</p>';
-				document.getElementById('Projs').appendChild(p);
-				var linebreak = document.createElement('br');
-				document.getElementById('Projs').appendChild(linebreak);
-				document.getElementById('Projs').appendChild(linebreak);
-				console.log(p);
-			}
-		});
 	</script>
 </html>
