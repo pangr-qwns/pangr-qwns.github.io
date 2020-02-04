@@ -3,8 +3,8 @@ data = {
         {
         "id": 1,
         "Title": "Instagram, Remade",
-        "Description": "Remade Instagram with client side and server side dynamic \
-            pages.",
+        "Description": "Remade Instagram with client side and server side dynamic "
+                       "pages.",
         "Tech Stack": ["Flask", "MySQL", "React.js"],
         "Demo Link": "https://www.youtube.com/watch?v=d_IBDNTvAfs",
         "Source Code": ""

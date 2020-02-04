@@ -3,7 +3,7 @@
         {
             "id": 1,
             "Title": "Instagram, Remade",
-            "Description": "Remade Instagram with client side and server side dynamic             pages.",
+            "Description": "Remade Instagram with client side and server side dynamic pages.",
             "Tech Stack": [
                 "Flask",
                 "MySQL",
