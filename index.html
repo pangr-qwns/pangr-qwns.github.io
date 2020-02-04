@@ -49,18 +49,37 @@
 				var p = document.createElement('div');
 				p.className = 'Project';
 				p.id = project.id;
+
+				// add title and description
 				p.innerHTML =
 					'<h3>' + title + '</h3>' +
-					'<p>' + desc +
-					'<br><br>Skills: ' + skills +
-					'<br><br>Demo: ' + demo +
-					'<br><br>Source: ' + source +
-					'</p>';
+					'<p>' + desc + '<br><br>';
+
+				// add skills
+				for (var j = 0; j < skills.length; j++) {
+					p.innerHTML += '<p class="Skill">' + skills[j] + '</p>';
+				}
+
+				// add demo
+				if (demo != "") {
+					p.innerHTML +=
+						'<br><br>' +
+						'<a href="' + demo + '" class="DemoLink">Demo</a>';
+				}
+
+				// add source
+				if (source != "") {
+					p.innerHTML +=
+						'<br><br>' +
+						'<a href="' + source + '" class="SourceLink">Source</a>';
+				}
+
+				p.innerHTML += '</p>';
+
 				document.getElementById('Projs').appendChild(p);
 				var linebreak = document.createElement('br');
 				document.getElementById('Projs').appendChild(linebreak);
 				document.getElementById('Projs').appendChild(linebreak);
-				console.log(p);
 			}
 		});
 	</script>
