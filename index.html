@@ -38,43 +38,53 @@
 		$.getJSON("projects.json", function(data){
 			projects = data["data"];
 
-			for (var i = 0; i < projects.length; i++) {
+			for (var i = projects.length-1; i > -1; i--) {
 				var project = projects[i];
 				var title = project.Title;
 				var desc = project.Description;
 				var skills = project.Skills;
 				var demo = project.Demo;
 				var source = project.Source;
+				var image_path = project.Image;
 
 				var p = document.createElement('div');
 				p.className = 'Project';
-				p.id = project.id;
+				p.id = i;
+
+				// add image
+				p.innerHTML =
+					'<img src="' + image_path + '" alt="Project Image" class="ProjectImage">';
+
+				var p_text = document.createElement('div');
+				p_text.className = 'ProjectText';
 
 				// add title and description
-				p.innerHTML =
-					'<h3>' + title + '</h3>' +
-					'<p>' + desc + '<br><br>';
+				p_text.innerHTML +=
+					'<h1>' + title + '</h1>' +
+					desc + '<br><br>';
 
 				// add skills
 				for (var j = 0; j < skills.length; j++) {
-					p.innerHTML += '<p class="Skill">' + skills[j] + '</p>';
+					p_text.innerHTML += '<p class="Skill">' + skills[j] + '</p>';
 				}
 
 				// add demo
 				if (demo != "") {
-					p.innerHTML +=
+					p_text.innerHTML +=
 						'<br><br>' +
-						'<a href="' + demo + '" class="DemoLink">Demo</a>';
+						'<a href="' + demo + '" class="DemoLink" target="_blank">View Demo</a>';
 				}
 
 				// add source
 				if (source != "") {
-					p.innerHTML +=
+					p_text.innerHTML +=
 						'<br><br>' +
 						'<a href="' + source + '" class="SourceLink">Source</a>';
 				}
 
-				p.innerHTML += '</p>';
+				p_text.innerHTML += '';
+
+				p.appendChild(p_text);
 
 				document.getElementById('Projs').appendChild(p);
 				var linebreak = document.createElement('br');

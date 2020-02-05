@@ -1,19 +1,16 @@
 {
     "data": [
         {
-            "id": 1,
-            "Title": "Instagram, Remade",
-            "Description": "Remade Instagram with client side and server side dynamic pages.",
+            "Title": "Mobile Barcode Scanner",
+            "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
             "Skills": [
-                "Flask",
-                "MySQL",
-                "React.js"
+                "Product Design"
             ],
-            "Demo": "https://www.youtube.com/watch?v=d_IBDNTvAfs",
-            "Source": ""
+            "Demo": "Lorem ipsum",
+            "Source": "Lorem ipsum",
+            "Image": "./static/instagram.jpg"
         },
         {
-            "id": 2,
             "Title": "Using Data Mining to Predict Suicide Rates",
             "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
             "Skills": [
@@ -23,27 +20,30 @@
                 "GAM"
             ],
             "Demo": "Lorem ipsum",
-            "Source": "Lorem ipsum"
+            "Source": "Lorem ipsum",
+            "Image": "./static/instagram.jpg"
         },
         {
-            "id": 3,
             "Title": "Interactive RFID",
             "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
             "Skills": [
                 "Python"
             ],
             "Demo": "Lorem ipsum",
-            "Source": "Lorem ipsum"
+            "Source": "Lorem ipsum",
+            "Image": "./static/instagram.jpg"
         },
         {
-            "id": 4,
-            "Title": "Mobile Barcode Scanner",
-            "Description": "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.",
+            "Title": "Insta485",
+            "Description": "My Web Systems class, EECS 485, had me recreating Instagram. I implemented my own REST API to handle database requests for comments, photos, likes, and all the other good stuff in Instagram. Unfortunately, the honor code does not let me post my project code. But enjoy the demo!",
             "Skills": [
-                "Product Design"
+                "Flask",
+                "MySQL",
+                "React.js"
             ],
-            "Demo": "Lorem ipsum",
-            "Source": "Lorem ipsum"
+            "Demo": "https://www.youtube.com/watch?v=d_IBDNTvAfs",
+            "Source": "",
+            "Image": "./static/instagram.jpg"
         }
     ]
 }
