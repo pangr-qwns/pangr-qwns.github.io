@@ -210,13 +210,13 @@
   padding: 24px;
 }
 
-.Portrait {
+.AboutContainer {
   text-align: center;
 }
 
-.Portrait_Pic {
+.AboutPic {
+  height: 500px;
   width: auto;
-  height: 300px;
   opacity: 1;
   display: block;
   width: auto;
@@ -237,10 +237,10 @@
   width: 300px;
 }
 
-.Portrait:hover .Portrait_Pic {
+.AboutContainer:hover .AboutPic {
   opacity: 0.1;
 }
 
-.Portrait:hover .BioText {
+.AboutContainer:hover .BioText {
   opacity: 1;
 }

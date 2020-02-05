@@ -45,7 +45,7 @@ data = {
                            "Unfortunately, the honor code does not let me "
                            "post my project code. But enjoy the demo!",
             "Skills": ["Flask", "MySQL", "React.js"],
-            "Demo": "https://www.youtube.com/watch?v=d_IBDNTvAfs",
+            "Demo": "https://youtu.be/utMnYlB-DQM",
             "Source": "",
             "Image": "./static/instagram.jpg"
         }
