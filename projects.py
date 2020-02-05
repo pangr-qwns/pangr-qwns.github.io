@@ -10,7 +10,7 @@ data = {
             "Skills": ["HTML/CSS", "Javascript", "Wireframing"],
             "Demo": "https://www.youtube.com/watch?v=kTKF-1_lmnc",
             "Source": "https://github.com/pangr-qwns/waitless",
-            "Image": "./static/instagram.jpg"
+            "Image": "./static/waitless.jpg"
         },
         {
             "Title": "Using Data Mining to Predict Suicide Rates",
@@ -21,7 +21,7 @@ data = {
             "Skills": ["R", "Linear Regression", "Splines", "GAM"],
             "Demo": "./static/suicide_report.pdf",
             "Source": "https://github.com/pangr-qwns/predictingSuicideRates/blob/master/Predicting%20Suicide%20Rates.pdf",
-            "Image": "./static/instagram.jpg"
+            "Image": "./static/suicide.jpg"
         },
         {
             "Title": "Interactive RFID",
@@ -34,7 +34,7 @@ data = {
             "Skills": ["Python"],
             "Demo": "https://www.youtube.com/watch?v=kEkylP-edp8",
             "Source": "https://github.com/pangr-qwns/kivy_research",
-            "Image": "./static/instagram.jpg"
+            "Image": "./static/rfid.jpg"
         },
         {
             "Title": "Insta485",

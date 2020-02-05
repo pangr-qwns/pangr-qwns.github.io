@@ -101,6 +101,7 @@
   transition: .5s ease;
   backface-visibility: hidden;
   object-fit: contain;
+
 }
 
 .ProjectText {
@@ -161,7 +162,7 @@
   background-color: white;
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 
-  padding-right: 13px;
+  margin-right: 13px;
 }
 
 .DemoLink:hover {
@@ -188,6 +189,7 @@
   background-color: white;
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
   display: inline-block;
+
 }
 
 .SourceLink:hover {
