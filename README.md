@@ -1,1 +1,1 @@
-# pangr-qwns.github.io
+# stirfrypapi.github.io
