@@ -2,49 +2,36 @@ data = {
     "data": [
         {
             "Title": "Mobile Barcode Scanner",
-            "Description": "I attended a hackathon in May 2018 and built a "
-                           "shopping app. Users could scan item "
-                           "barcodes and the item would appear in the user's "
-                           "cart. I drafted wireframes and developed the "
-                           "front end parts of the app.",
+            "Description": "A barcode scanner that is used in store and "
+                           "serves as a personal cashier.",
             "Skills": ["HTML/CSS", "Javascript", "Wireframing"],
             "Demo": "https://www.youtube.com/watch?v=kTKF-1_lmnc",
-            "Source": "https://github.com/pangr-qwns/waitless",
+            "Source": "https://github.com/stirfrypapi/waitless",
             "Image": "./static/waitless.jpg"
         },
         {
-            "Title": "Using Data Mining to Predict Suicide Rates",
-            "Description": "Working with two other data scientists, I ran a "
-                           "dataset of suicide information on different data "
-                           "analysis models to predict what factors "
-                           "contributed to suicide rates.",
+            "Title": "Predicting Suicide Factors",
+            "Description": "Ran suicide data on models to predict what "
+                           "factors contributed to suicides.",
             "Skills": ["R", "Linear Regression", "Splines", "GAM"],
             "Demo": "./static/suicide_report.pdf",
-            "Source": "https://github.com/pangr-qwns/predictingSuicideRates/blob/master/Predicting%20Suicide%20Rates.pdf",
+            "Source": "https://github.com/stirfrypapi/predictingSuicideRates/blob/master/Predicting%20Suicide%20Rates.pdf",
             "Image": "./static/suicide.jpg"
         },
         {
-            "Title": "Interactive RFID",
-            "Description": "I started researching RFID packets under Prof. "
-                           "Alanson Sample. RFID are these cool and cheap "
-                           "stickers that reflect waves to a sensor. I'm "
-                           "building an GUI interface that non technical "
-                           "people like doctors can use to examine patients "
-                           "efficiently!",
-            "Skills": ["Python"],
-            "Demo": "https://www.youtube.com/watch?v=kEkylP-edp8",
-            "Source": "https://github.com/pangr-qwns/kivy_research",
+            "Title": "Interaction of Things",
+            "Description": "A user interface that predicted how people were "
+                           "interacting with things.",
+            "Skills": ["Python", "Multi-Processing", "SVM's"],
+            "Demo": "https://www.youtube.com/watch?v=_nMauMXDqf8",
+            "Source": "https://github.com/stirfrypapi/t_for_train",
             "Image": "./static/rfid.jpg"
         },
         {
             "Title": "Insta485",
-            "Description": "My Web Systems class, EECS 485, had me recreating "
-                           "Instagram. I implemented my own REST API to "
-                           "handle database requests for comments, photos, "
-                           "likes, and all the other good stuff in Instagram. "
-                           "Unfortunately, the honor code does not let me "
-                           "post my project code. But enjoy the demo!",
-            "Skills": ["Flask", "MySQL", "React.js"],
+            "Description": "Cloned Instagram, recreating client side and "
+                           "server side dynamic features.",
+            "Skills": ["Flask", "MySQL", "React.js", "Web Dev"],
             "Demo": "https://youtu.be/utMnYlB-DQM",
             "Source": "",
             "Image": "./static/instagram.jpg"

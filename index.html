@@ -33,6 +33,7 @@
 				</div>
 				<p class="Copyright">&#169; 2020. Design and developed by Raymond Pang</p>
 			</div>
+			<br>
 			<div class="Projects" id="Projs">
 			</div>
 		</section>
@@ -56,8 +57,11 @@
 				p.id = i;
 
 				// add image
-				p.innerHTML =
-					'<img src="' + image_path + '" alt="Project Image" class="ProjectImage">';
+				p.style.backgroundImage = 'url(' + image_path + ')';
+				p.style.backgroundSize = 'contain';
+				p.style.backgroundRepeat = 'no-repeat';
+				//p.innerHTML =
+					//'<img src="' + image_path + '" alt="Project Image" class="ProjectImage">';
 
 				var p_text = document.createElement('div');
 				p_text.className = 'ProjectText';
