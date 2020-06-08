@@ -306,16 +306,16 @@
 
   font-family: montserrat;
   font-size: medium;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin-left: 140px;
+  margin-right: 140px;
   margin-top: 0px;
 }
 
 .Victim {
   margin: auto;
   border-style: solid;
-  padding: 24px;
-  height: 175px;
+  padding: 15px;
+  height: 190px;
   width: 750px;
 
   font-family: garamond;
@@ -323,12 +323,25 @@
 }
 
 .VictimText {
-  padding-left: 250px;
+  margin-top: 0px;
+  padding-left: 230px;
   line-height: 80%;
+  font-size: large;
 }
 
 .Victim:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-transform: scale(1.02) perspective(0px);
   transform: scale(1.02) perspective(0px);
+}
+
+.BLMSkill {
+  min-width: 5px;
+  padding: 5px; /* inside box */
+  /* border: solid black 1px; */
+  display: inline-block;
+  border-radius: 5px; /* rounded corners */
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80%
 }
