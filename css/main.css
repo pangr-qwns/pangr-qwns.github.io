@@ -219,7 +219,7 @@
 }
 
 .BioLine {
-  font-size: 30px;
+  font-size: 35px;
   padding: 0;
   margin: 0;
 }
@@ -232,8 +232,8 @@
 .BioPMovie {
 }
 
-.Code, .Earth, .Movies, .Music {
-  font-size: 30px;
+.Code, .Earth, .Movies, .Pictures{
+  font-size: 35px;
   color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
@@ -261,7 +261,7 @@
   background-color: #DEE2F7;
 }
 
-.Music:hover {
+.Pictures:hover {
   color: black;
   background-color: #F7CACA;
 }
@@ -285,3 +285,50 @@
   color: black;
 }
 
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* BLACK LIVES MATTER ------------------------------------------------------ */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+.BLMTitle {
+  text-align: center;
+
+  font-family: montserrat;
+  font-size: xxx-large;
+  margin-bottom: 10px;
+}
+
+.BLMDesc {
+  text-align: center;
+
+  font-family: montserrat;
+  font-size: medium;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 0px;
+}
+
+.Victim {
+  margin: auto;
+  border-style: solid;
+  padding: 24px;
+  height: 175px;
+  width: 750px;
+
+  font-family: garamond;
+  transition: .5s ease;
+}
+
+.VictimText {
+  padding-left: 250px;
+  line-height: 80%;
+}
+
+.Victim:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transform: scale(1.02) perspective(0px);
+  transform: scale(1.02) perspective(0px);
+}

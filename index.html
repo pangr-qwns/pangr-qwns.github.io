@@ -13,6 +13,7 @@
 				<h1>Raymond<br>Pang</h1>
 				<br>
 				<div class="vertical-menu">
+					<a href="./black_lives_matter.html">Black Lives Matter</a>
 					<a href="./index.html" class="active">Projects</a>
 					<a href="static/Resume.pdf" target="_blank">Resume</a>
                     <a href="https://unsplash.com/@raypang" target="_blank">Photography</a>
@@ -36,7 +37,7 @@
 	</body>
 
 	<script>
-		$.getJSON("projects.json", function(data){
+		$.getJSON("./static/data/projects.json", function(data){
 			projects = data["data"];
 
 			for (var i = projects.length-1; i > -1; i--) {
@@ -56,8 +57,6 @@
 				p.style.backgroundImage = 'url(' + image_path + ')';
 				p.style.backgroundSize = 'contain';
 				p.style.backgroundRepeat = 'no-repeat';
-				//p.innerHTML =
-					//'<img src="' + image_path + '" alt="Project Image" class="ProjectImage">';
 
 				var p_text = document.createElement('div');
 				p_text.className = 'ProjectText';

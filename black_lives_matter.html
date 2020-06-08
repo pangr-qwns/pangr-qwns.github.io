@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Lives Matter</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <p class="BLMTitle">Black Lives Matter</p>
+
+    <p class="BLMDesc">The rate at which black Americans are killed by police is more than twice as high as the rate
+        for white Americans. This is a non-comprehensive list of deaths at the hands of police in the U.S. since
+        Eric Garner's death in July 2014 (NPR, 2020).</p>
+
+    <br>
+
+    <div class="Victims" id="Vics">
+
+    </div>
+
+</body>
+
+    <script>
+		$.getJSON("./static/data/people.json", function(data){
+			people = data["data"];
+
+			for (var i = people.length-1; i > -1; i--) {
+
+			    var victim = people[i];
+			    var name = victim.Name;
+			    var injury = victim.Injury;
+			    var date = victim.Date_of_Incident;
+			    var picture = victim.Picture;
+			    var link = victim.Link;
+			    var skills = victim.Description;
+
+				var p = document.createElement('div');
+				p.className = 'Victim';
+				p.id = i;
+
+                // add image
+				p.style.backgroundImage = 'url(' + picture + ')';
+				p.style.backgroundSize = 'contain';
+				p.style.backgroundRepeat = 'no-repeat';
+
+                var p_text = document.createElement('div');
+                p_text.className = 'VictimText';
+
+                // add title and description
+				p_text.innerHTML +=
+					'<h1>' + name + '</h1>' +
+					injury + ' on ' + date + '<br>';
+
+				// add skills
+				p_text.innerHTML += '<p class="Bullet">&bull;</p>';
+				for (var j = 0; j < skills.length; j++) {
+					p_text.innerHTML += '<p class="Skill">' + skills[j] + '</p>' +
+						'<p class="Bullet">&bull;</p>';
+				}
+
+				// add link to more info
+				if (link != "") {
+					p_text.innerHTML +=
+						'<br>' +
+						'<a href="' + link + '" class="DemoLink" target="_blank">More Details</a>';
+				}
+
+				p.appendChild(p_text);
+
+                document.getElementById('Vics').appendChild(p);
+
+                var linebreak = document.createElement('br');
+				document.getElementById('Vics').appendChild(linebreak);
+				document.getElementById('Vics').appendChild(linebreak);
+			}
+		});
+	</script>
+
+</html>
