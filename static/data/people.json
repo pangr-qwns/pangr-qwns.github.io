@@ -257,6 +257,92 @@
             "Description": [
                 "It shows you, in the US, we don’t really have justice."
             ]
+        },
+        {
+            "Name": "Philando Castile",
+            "Injury": "Murdered",
+            "Date_of_Incident": "July 6, 2016",
+            "Picture": "static/pictures/philando_castile.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile",
+            "Description": [
+                "Philando is moving mountains."
+            ]
+        },
+        {
+            "Name": "Joseph Mann",
+            "Injury": "Murdered",
+            "Date_of_Incident": "July 11, 2016",
+            "Picture": "static/pictures/joseph_mann.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Joseph_Mann",
+            "Description": [
+                "I still think about Joseph every day."
+            ]
+        },
+        {
+            "Name": "Paul O'Neal",
+            "Injury": "Murdered",
+            "Date_of_Incident": "July 28, 2016",
+            "Picture": "static/pictures/paul_oneal.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Paul_O%27Neal",
+            "Description": [
+                "Shot in the back"
+            ]
+        },
+        {
+            "Name": "Korryn Gaines",
+            "Injury": "Murdered",
+            "Date_of_Incident": "August 1, 2016",
+            "Picture": "static/pictures/korryn_gaines.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Korryn_Gaines",
+            "Description": [
+                "Say Her Name"
+            ]
+        },
+        {
+            "Name": "Terence Crutcher",
+            "Injury": "Murdered",
+            "Date_of_Incident": "September 16, 2016",
+            "Picture": "static/pictures/terence_crutcher.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Terence_Crutcher",
+            "Evidence": "http://data.baltimoresun.com/news/korryn-gaines/",
+            "Description": [
+                "God-loving father of four who sang at church every week"
+            ]
+        },
+        {
+            "Name": "Keith Lamont Scott",
+            "Injury": "Murdered",
+            "Date_of_Incident": "September 16, 2016",
+            "Picture": "static/pictures/keith_lamont_scott.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Keith_Lamont_Scott",
+            "Description": [
+                "How to get away with murder: Become a cop"
+            ]
+        },
+        {
+            "Name": "Alfred Olango",
+            "Injury": "Murdered",
+            "Date_of_Incident": "September 27, 2016",
+            "Picture": "static/pictures/alfred_olango.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Alfred_Olango",
+            "Description": [
+                "Father",
+                "Son",
+                "Brother",
+                "Uncle",
+                "Cousin",
+                "Friend"
+            ]
+        },
+        {
+            "Name": "Deborah Danner",
+            "Injury": "Murdered",
+            "Date_of_Incident": "October 18, 2016",
+            "Picture": "static/pictures/deborah_danner.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Deborah_Danner",
+            "Description": [
+                "What happened to Deborah should not have happened"
+            ]
         }
     ]
 }
