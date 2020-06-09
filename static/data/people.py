@@ -4,7 +4,7 @@ victims = {
             "Name": "Eric Garner",
             "Injury": "Murdered",
             "Date_of_Incident": "July 17, 2014",
-            "Picture": "static/pictures/eric_garner.jpg",
+            "Picture": "static/black_lives_matter_pics/eric_garner.jpg",
             "Link": "https://en.wikipedia.org/wiki/Death_of_Eric_Garner",
             "Description": ["Neighborhood Peacemaker", "Father of Six"]
         },
@@ -12,7 +12,7 @@ victims = {
             "Name": "Michael Brown",
             "Injury": "Murdered",
             "Date_of_Incident": "August 9, 2014",
-            "Picture": "static/pictures/michael_brown.jpg",
+            "Picture": "static/black_lives_matter_pics/michael_brown.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown",
             "Description": ["Good Hearted Kid", "Big Mike"]
         },
@@ -20,7 +20,7 @@ victims = {
             "Name": "Akai Gurley",
             "Injury": "Murdered",
             "Date_of_Incident": "November 20, 2014",
-            "Picture": "static/pictures/akai_gurley.jpg",
+            "Picture": "static/black_lives_matter_pics/akai_gurley.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Akai_Gurley",
             "Description": ["Girly-Gurley", "Father"]
         },
@@ -28,7 +28,7 @@ victims = {
             "Name": "John Crawford III",
             "Injury": "Murdered",
             "Date_of_Incident": "August 5, 2014",
-            "Picture": "static/pictures/john_crawford_iii.jpg",
+            "Picture": "static/black_lives_matter_pics/john_crawford_iii.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_John_Crawford_III",
             "Description": ["How does one go into a Walmart and not come out alive?"]
         },
@@ -36,7 +36,7 @@ victims = {
             "Name": "Ezell Ford",
             "Injury": "Murdered",
             "Date_of_Incident": "August 11, 2014",
-            "Picture": "static/pictures/ezell_ford.jpg",
+            "Picture": "static/black_lives_matter_pics/ezell_ford.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Ezell_Ford",
             "Description": []
         },
@@ -44,7 +44,7 @@ victims = {
             "Name": "Laquan McDonald",
             "Injury": "Murdered",
             "Date_of_Incident": "October 20, 2014",
-            "Picture": "static/pictures/laquan_mcdonald.jpg",
+            "Picture": "static/black_lives_matter_pics/laquan_mcdonald.jpg",
             "Link": "https://en.wikipedia.org/wiki/Murder_of_Laquan_McDonald",
             "Description": ["Bon Bon", "Always bubbly, always smiling"]
         },
@@ -52,7 +52,7 @@ victims = {
             "Name": "Dontre Hamilton",
             "Injury": "Murdered",
             "Date_of_Incident": "April 30, 2014",
-            "Picture": "static/pictures/dontre_hamilton.jpg",
+            "Picture": "static/black_lives_matter_pics/dontre_hamilton.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Dontre_Hamilton",
             "Description": ["We can't bring him back but we can help somebody."]
         },
@@ -60,7 +60,7 @@ victims = {
             "Name": "Tamir Rice",
             "Injury": "Murdered",
             "Date_of_Incident": "November 22, 2014",
-            "Picture": "static/pictures/tamir_rice.jpg",
+            "Picture": "static/black_lives_matter_pics/tamir_rice.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice",
             "Description": ["A child lost their life, that should not have happened"]
         },
@@ -68,7 +68,7 @@ victims = {
             "Name": "Antonio Martin",
             "Injury": "Murdered",
             "Date_of_Incident": "December 23, 2014",
-            "Picture": "static/pictures/antonio_martin.jpg",
+            "Picture": "static/black_lives_matter_pics/antonio_martin.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Antonio_Martin",
             "Description": []
         },
@@ -76,7 +76,7 @@ victims = {
             "Name": "Jerame Reid",
             "Injury": "Murdered",
             "Date_of_Incident": "December 30, 2014",
-            "Picture": "static/pictures/jerame_reid.jpg",
+            "Picture": "static/black_lives_matter_pics/jerame_reid.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Jerame_Reid",
             "Description": ["The city has been so gloomy since he died."]
         },
@@ -84,7 +84,7 @@ victims = {
             "Name": "Alton Sterling",
             "Injury": "Murdered",
             "Date_of_Incident": "July 5, 2016",
-            "Picture": "static/pictures/alton_sterling.jpg",
+            "Picture": "static/black_lives_matter_pics/alton_sterling.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Alton_Sterling",
             "Description": ["The Most Generous Man in the Neighborhood"]
         },
@@ -92,7 +92,7 @@ victims = {
             "Name": "Charley Leundeu Keunang",
             "Injury": "Murdered",
             "Date_of_Incident": "March 1, 2015",
-            "Picture": "static/pictures/charley_lendeu_keunang.jpg",
+            "Picture": "static/black_lives_matter_pics/charley_lendeu_keunang.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Charley_Leundeu_Keunang",
             "Description": ["Cameroon", "Physicist"]
         },
@@ -100,7 +100,7 @@ victims = {
             "Name": "Tony Robinson",
             "Injury": "Murdered",
             "Date_of_Incident": "March 6, 2015",
-            "Picture": "static/pictures/tony_robinson.jpg",
+            "Picture": "static/black_lives_matter_pics/tony_robinson.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Tony_Robinson",
             "Description": ["Grandson", "Nephew"]
         },
@@ -108,7 +108,7 @@ victims = {
             "Name": "Anthony Hill",
             "Injury": "Murdered",
             "Date_of_Incident": "March 9, 2015",
-            "Picture": "static/pictures/anthony_hill.jpg",
+            "Picture": "static/black_lives_matter_pics/anthony_hill.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Anthony_Hill",
             "Description": ["Decorated Veteran, US Air Force"]
         },
@@ -116,7 +116,7 @@ victims = {
             "Name": "Meagan Hockaday",
             "Injury": "Murdered",
             "Date_of_Incident": "March 28, 2015",
-            "Picture": "static/pictures/meagan_hockaday.jpg",
+            "Picture": "static/black_lives_matter_pics/meagan_hockaday.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Meagan_Hockaday",
             "Description": ["Mother of three"]
         },
@@ -124,7 +124,7 @@ victims = {
             "Name": "Walter Scott",
             "Injury": "Murdered",
             "Date_of_Incident": "April 4, 2015",
-            "Picture": "static/pictures/walter_scott.jpg",
+            "Picture": "static/black_lives_matter_pics/walter_scott.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Walter_Scott",
             "Description": ["Kind Father of four", "Dallas Cowboys Fan"]
         },
@@ -132,7 +132,7 @@ victims = {
             "Name": "Freddie Gray",
             "Injury": "Murdered",
             "Date_of_Incident": "April 12, 2015",
-            "Picture": "static/pictures/freddie_gray.jpg",
+            "Picture": "static/black_lives_matter_pics/freddie_gray.jpg",
             "Link": "https://en.wikipedia.org/wiki/Death_of_Freddie_Gray",
             "Description": ["Loyal", "Kindhearted", "Warm"]
         },
@@ -140,7 +140,7 @@ victims = {
             "Name": "Jonathan Sanders",
             "Injury": "Murdered",
             "Date_of_Incident": "July 8, 2015",
-            "Picture": "static/pictures/jonathan_sanders.jpg",
+            "Picture": "static/black_lives_matter_pics/jonathan_sanders.jpg",
             "Link": "https://en.wikipedia.org/wiki/Death_of_Jonathan_Sanders",
             "Description": ["Complain about a white officer, nothing gets done."]
         },
@@ -148,7 +148,7 @@ victims = {
             "Name": "Sandra Bland",
             "Injury": "Murdered",
             "Date_of_Incident": "July 13, 2015",
-            "Picture": "static/pictures/sandra_bland.jpg",
+            "Picture": "static/black_lives_matter_pics/sandra_bland.jpg",
             "Link": "https://en.wikipedia.org/wiki/Death_of_Sandra_Bland",
             "Description": ["Activist", "We are fighting to be seen as human."]
         },
@@ -156,7 +156,7 @@ victims = {
             "Name": "Samuel DuBose",
             "Injury": "Murdered",
             "Date_of_Incident": "July 19, 2015",
-            "Picture": "static/pictures/samuel_dubose.jpg",
+            "Picture": "static/black_lives_matter_pics/samuel_dubose.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Samuel_DuBose",
             "Description": ["Flesh is just that. Your spirit still lives."]
         },
@@ -164,7 +164,7 @@ victims = {
             "Name": "Jeremy McDole",
             "Injury": "Murdered",
             "Date_of_Incident": "September 23, 2015",
-            "Picture": "static/pictures/jeremy_mcdole.jpg",
+            "Picture": "static/black_lives_matter_pics/jeremy_mcdole.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Jeremy_McDole",
             "Description": ["My world is still dark, but I see today I don't stand alone."]
         },
@@ -172,7 +172,7 @@ victims = {
             "Name": "Corey Jones",
             "Injury": "Murdered",
             "Date_of_Incident": "October 18, 2015",
-            "Picture": "static/pictures/corey_jones.jpg",
+            "Picture": "static/black_lives_matter_pics/corey_jones.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Corey_Jones",
             "Description": ["Mild Mannered", "Always Smiling"]
         },
@@ -180,7 +180,7 @@ victims = {
             "Name": "Jamar Clark",
             "Injury": "Murdered",
             "Date_of_Incident": "November 15, 2015",
-            "Picture": "static/pictures/jamar_clark.jpg",
+            "Picture": "static/black_lives_matter_pics/jamar_clark.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark",
             "Description": ["It shows you, in the US, we don’t really have justice."]
         },
@@ -188,7 +188,7 @@ victims = {
             "Name": "Philando Castile",
             "Injury": "Murdered",
             "Date_of_Incident": "July 6, 2016",
-            "Picture": "static/pictures/philando_castile.jpg",
+            "Picture": "static/black_lives_matter_pics/philando_castile.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile",
             "Description": ["Philando is moving mountains."]
         },
@@ -196,7 +196,7 @@ victims = {
             "Name": "Joseph Mann",
             "Injury": "Murdered",
             "Date_of_Incident": "July 11, 2016",
-            "Picture": "static/pictures/joseph_mann.jpg",
+            "Picture": "static/black_lives_matter_pics/joseph_mann.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Joseph_Mann",
             "Description": ["I still think about Joseph every day."]
         },
@@ -204,7 +204,7 @@ victims = {
             "Name": "Paul O'Neal",
             "Injury": "Murdered",
             "Date_of_Incident": "July 28, 2016",
-            "Picture": "static/pictures/paul_oneal.jpg",
+            "Picture": "static/black_lives_matter_pics/paul_oneal.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Paul_O%27Neal",
             "Description": ["Shot in the back"]
         },
@@ -212,7 +212,7 @@ victims = {
             "Name": "Korryn Gaines",
             "Injury": "Murdered",
             "Date_of_Incident": "August 1, 2016",
-            "Picture": "static/pictures/korryn_gaines.jpg",
+            "Picture": "static/black_lives_matter_pics/korryn_gaines.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Korryn_Gaines",
             "Description": ["Say Her Name"]
         },
@@ -220,7 +220,7 @@ victims = {
             "Name": "Terence Crutcher",
             "Injury": "Murdered",
             "Date_of_Incident": "September 16, 2016",
-            "Picture": "static/pictures/terence_crutcher.jpg",
+            "Picture": "static/black_lives_matter_pics/terence_crutcher.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Terence_Crutcher",
             "Evidence": "http://data.baltimoresun.com/news/korryn-gaines/",
             "Description": ["God-loving father of four who sang at church every week"]
@@ -229,7 +229,7 @@ victims = {
             "Name": "Keith Lamont Scott",
             "Injury": "Murdered",
             "Date_of_Incident": "September 16, 2016",
-            "Picture": "static/pictures/keith_lamont_scott.jpg",
+            "Picture": "static/black_lives_matter_pics/keith_lamont_scott.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Keith_Lamont_Scott",
             "Description": ["How to get away with murder: Become a cop"]
         },
@@ -237,7 +237,7 @@ victims = {
             "Name": "Alfred Olango",
             "Injury": "Murdered",
             "Date_of_Incident": "September 27, 2016",
-            "Picture": "static/pictures/alfred_olango.jpg",
+            "Picture": "static/black_lives_matter_pics/alfred_olango.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Alfred_Olango",
             "Description": ["Father", "Son", "Brother", "Uncle", "Cousin", "Friend"]
         },
@@ -245,7 +245,7 @@ victims = {
             "Name": "Deborah Danner",
             "Injury": "Murdered",
             "Date_of_Incident": "October 18, 2016",
-            "Picture": "static/pictures/deborah_danner.jpg",
+            "Picture": "static/black_lives_matter_pics/deborah_danner.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Deborah_Danner",
             "Description": ["What happened to Deborah should not have happened"]
         },
@@ -253,7 +253,7 @@ victims = {
             "Name": "Breonna Taylor",
             "Injury": "Murdered",
             "Date_of_Incident": "March 13, 2020",
-            "Picture": "static/pictures/breonna_taylor.jpg",
+            "Picture": "static/black_lives_matter_pics/breonna_taylor.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor",
             "Description": [
                 "All you can do every day is wake, pray, and slay."]
@@ -262,7 +262,7 @@ victims = {
             "Name": "George Floyd",
             "Injury": "Murdered",
             "Date_of_Incident": "May 25, 2020",
-            "Picture": "static/pictures/george_floyd.jpg",
+            "Picture": "static/black_lives_matter_pics/george_floyd.jpg",
             "Link": "https://en.wikipedia.org/wiki/Killing_of_George_Floyd",
             "Description": ["Devoted Father of Two", "Gentle Giant"]
         },
