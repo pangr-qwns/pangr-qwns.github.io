@@ -9,14 +9,6 @@ victims = {
             "Description": ["Neighborhood Peacemaker", "Father of Six"]
         },
         {
-            "Name": "George Floyd",
-            "Injury": "Murdered",
-            "Date_of_Incident": "May 25, 2020",
-            "Picture": "static/pictures/george_floyd.jpg",
-            "Link": "https://en.wikipedia.org/wiki/Killing_of_George_Floyd",
-            "Description": ["Devoted Father of Two", "Gentle Giant"]
-        },
-        {
             "Name": "Michael Brown",
             "Injury": "Murdered",
             "Date_of_Incident": "August 9, 2014",
@@ -31,14 +23,6 @@ victims = {
             "Picture": "static/pictures/akai_gurley.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Akai_Gurley",
             "Description": ["Girly-Gurley", "Father"]
-        },
-        {
-            "Name": "Breonna Taylor",
-            "Injury": "Murdered",
-            "Date_of_Incident": "March 13, 2020",
-            "Picture": "static/pictures/breonna_taylor.jpg",
-            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor",
-            "Description": ["All you can do every day is wake, pray, and slay."]
         },
         {
             "Name": "John Crawford III",
@@ -264,6 +248,23 @@ victims = {
             "Picture": "static/pictures/deborah_danner.jpg",
             "Link": "https://en.wikipedia.org/wiki/Shooting_of_Deborah_Danner",
             "Description": ["What happened to Deborah should not have happened"]
+        },
+        {
+            "Name": "Breonna Taylor",
+            "Injury": "Murdered",
+            "Date_of_Incident": "March 13, 2020",
+            "Picture": "static/pictures/breonna_taylor.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor",
+            "Description": [
+                "All you can do every day is wake, pray, and slay."]
+        },
+        {
+            "Name": "George Floyd",
+            "Injury": "Murdered",
+            "Date_of_Incident": "May 25, 2020",
+            "Picture": "static/pictures/george_floyd.jpg",
+            "Link": "https://en.wikipedia.org/wiki/Killing_of_George_Floyd",
+            "Description": ["Devoted Father of Two", "Gentle Giant"]
         },
     ]
 }
