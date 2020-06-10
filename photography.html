@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Raymond Pang</title>
+        <link rel="stylesheet" type="text/css" href="./static/css/photography.css">
+        <link rel="stylesheet" type="text/css" href="./static/css/menu.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <section id="Page">
+
+            <div class="Menu">
+				<h1>Raymond<br>Pang</h1>
+				<br>
+				<div class="vertical-menu">
+					<a href="./black_lives_matter.html">Black Lives Matter</a>
+					<a href="./index.html">Projects</a>
+					<a href="static/resume/Resume.pdf" target="_blank">Resume</a>
+                    <a href="./photography.html" class="active">Photography</a>
+					<a href="./about.html">About</a>
+				</div>
+				<br><br>
+				<div class="Contact">
+					<a href="https://www.linkedin.com/in/raymond-pang-4490b912a/" target="_blank">
+						<i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+					<a href="https://github.com/stirfrypapi" target="_blank">
+						<i style="font-size:24px" class="fa">&#xf09b;</i></a>
+					<a href="https://open.spotify.com/user/raymondpang" target="_blank">
+						<i style="font-size:24px" class="fa">&#xf1bc;</i></a>
+				</div>
+				<p class="Copyright">by Raymond Pang</p>
+			</div>
+
+            <br><br>
+
+            <section id="photos">
+
+            </section>
+
+        </section>
+
+
+    </body>
+
+    <script>
+
+        $.getJSON("./static/data/photography.json", function(data) {
+
+            pictures = data["data"];
+
+			for (var i = pictures.length-1; i > -1; i--) {
+
+			    var file_path = "./static/photography/" + pictures[i].File;
+
+                var pic = document.createElement("IMG");
+                pic.setAttribute("src", file_path);
+                pic.setAttribute("alt", "Picture");
+                pic.id = i;
+                pic.setAttribute("onclick", "window.open(this.src)");
+                pic.className = "Picture";
+
+                document.getElementById('photos').appendChild(pic);
+
+            }
+        });
+
+    </script>
+</html>

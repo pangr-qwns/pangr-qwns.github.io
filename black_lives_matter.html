@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Black Lives Matter</title>
-    <link rel="stylesheet" type="text/css" href="./static/css/main.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Black Lives Matter</title>
+        <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
 
-    <p class="BLMTitle">Black Lives Matter</p>
+        <p class="BLMTitle">Black Lives Matter</p>
 
-    <p class="BLMDesc">The rate at which black Americans are killed by police is more than twice as high as the rate
-        for white Americans. This is a non-comprehensive list of deaths at the hands of police in the U.S. since
-        Eric Garner's death in July 2014 (NPR, 2020).</p>
+        <p class="BLMDesc">The rate at which black Americans are killed by police is more than twice as high as the rate
+            for white Americans. This is a non-comprehensive list of deaths at the hands of police in the U.S. since
+            Eric Garner's death in July 2014 (NPR, 2020).</p>
 
-    <br>
+        <br>
 
-    <div class="Victims" id="Vics">
+        <div class="Victims" id="Vics">
 
-    </div>
+        </div>
 
-</body>
+    </body>
 
     <script>
 		$.getJSON("./static/data/people.json", function(data){

@@ -1,92 +1,3 @@
-.Page {
-  /* border-style: solid; */
-  width: 700px;
-  height: 800px;
-  background: white;
-  margin: auto;
-  padding: 10px;
-}
-
-/* ------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------- */
-/* MENU -------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------- */
-
-.Menu {
-  /* border-style: solid; */
-  text-align: right; /*justify text right*/
-  width: 150px;
-  padding: 12px;
-  position: fixed;
-
-  /* center div vertically */
-  margin: 0;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-
-  font-family: garamond;
-}
-
-.vertical-menu {
-  /* border-style: solid; */
-  width: 200px; /* Set a width if you like */
-  margin-left: -45px;
-}
-
-.vertical-menu a {
-  background-color: white; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 6px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-  font-size: 16px;
-}
-
-.vertical-menu a:hover {
-  background-color: white; /* Dark grey background on mouse-over */
-  font-weight: bold;
-}
-
-.vertical-menu a.active {
-  background-color: white; /* Add a green color to the "active/current" link */
-  font-weight: bold;
-  color: black;
-}
-
-.Contact {
-  /* border-style: solid; */
-}
-
-.Contact a:link {
-  color: black;
-}
-
-.Contact a:visited {
-  color: black;
-}
-
-.Contact a + a {
-  padding-left: 5px;
-}
-
-.Copyright {
-  padding-top: 10px;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: right;
-  color: gray;
-}
-
-.fa:hover {
-  opacity: 0.7;
-  -webkit-transform: scale(1.02) perspective(0px);
-  transform: scale(1.02) perspective(0px);
-}
-
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
@@ -96,7 +7,9 @@
 /* ------------------------------------------------------------------------- */
 
 .Project {
-  margin-left: 200px; /*Float Right*/
+  /* Shift container left*/
+  margin-left: 32.5%;
+
   height: 230px;
   width: 600px;
   padding: 24px;
@@ -203,12 +116,17 @@
 /* ------------------------------------------------------------------------- */
 
 .AboutContainer {
-  margin-left: 200px; /*Float Right*/
+  /* Shift container left*/
+  margin-left: 32.5%;
+
   height: 230px;
   width: 600px;
-  padding: 24px;
+
+  padding-left: 0px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-bottom: 20px;
-  /*border-style: solid;*/
 
   font-family: montserrat;
   transition: .5s ease;
