@@ -30,5 +30,29 @@ pictures = {
         {
             "File": "photo10.jpg"
         },
+        {
+            "File": "photo11.jpg"
+        },
+        {
+            "File": "photo12.jpg"
+        },
+        {
+            "File": "photo13.jpg"
+        },
+        {
+            "File": "photo14.jpg"
+        },
+        {
+            "File": "photo15.jpg"
+        },
+        {
+            "File": "photo16.jpg"
+        },
+        {
+            "File": "photo17.jpg"
+        },
+        {
+            "File": "photo18.jpg"
+        },
     ]
 }
